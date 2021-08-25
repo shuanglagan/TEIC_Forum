@@ -11,10 +11,7 @@ import ImgInputer from 'vue-img-inputer'
 import 'vue-img-inputer/dist/index.css'
 import VuePageTransition from 'vue-page-transition'
 
-import {
-  Quasar,
-  Dialog
-} from 'quasar'
+
 
 import VueGtag from 'vue-gtag'
 Vue.use(VueGtag, {
