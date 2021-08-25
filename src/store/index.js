@@ -11,10 +11,10 @@ import ImgInputer from 'vue-img-inputer'
 import 'vue-img-inputer/dist/index.css'
 import VuePageTransition from 'vue-page-transition'
 
-// import {
-//   Quasar,
-//   Dialog
-// } from 'quasar'
+import {
+  Quasar,
+  Dialog
+} from 'quasar'
 
 import VueGtag from 'vue-gtag'
 Vue.use(VueGtag, {
@@ -31,11 +31,11 @@ Vue.component('ImgInputer', ImgInputer)
 
 Vue.mixin(mixin)
 
-// Vue.use(Quasar, {
-//   plugins: {
-//     Dialog
-//   }
-// })
+Vue.use(Quasar, {
+  plugins: {
+    Dialog
+  }
+})
 
 Vue.use(VuePageTransition)
 /*
