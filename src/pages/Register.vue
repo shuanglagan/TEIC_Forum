@@ -14,7 +14,7 @@
 
         .column.items-end
           .row
-            q-btn.col-6(label='登入' type='submit' color='primary')
+            q-btn.col-6(label='註冊' type='submit' color='primary')
             q-btn.col-6(label='重設' type='reset' color='primary' flat).
 
         //-檢查.env是否讀的到 | {{ url }}
