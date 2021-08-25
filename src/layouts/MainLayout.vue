@@ -26,7 +26,8 @@
 
           q-fab-action(color='accent'          v-if="user.islogin && user.isAdmin" to="/user/admin" label='後臺管理' ).
         brbrbrbrbr
-        router-view.
+        vue-page-transition(name='fade-in-down')
+          router-view.
 </template>
 
 <script>

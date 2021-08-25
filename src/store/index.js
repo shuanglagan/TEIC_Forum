@@ -9,6 +9,7 @@ import 'sweetalert2/dist/sweetalert2.min.css'
 import mixin from '../boot/mixin'
 import ImgInputer from 'vue-img-inputer'
 import 'vue-img-inputer/dist/index.css'
+import VuePageTransition from 'vue-page-transition'
 
 import {
   Quasar,
@@ -36,6 +37,7 @@ Vue.use(Quasar, {
   }
 })
 
+Vue.use(VuePageTransition)
 /*
  * If not building with SSR mode, you can
  * directly export the Store instantiation;
