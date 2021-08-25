@@ -1,0 +1,106 @@
+// app global css in Stylus form
+$teicColor = #ffa31a
+$teicBlackColor = #121212
+$teicGreyColor = #6e6e6e
+$teicWhite = #ffffff
+
+// .col
+//   min-width: 0px !important
+//   min-height: 0px !important
+
+.text-teic
+  color $teicBlackColor
+.text-white
+  color $teicWhite
+.bg-white
+  color $teicWhite
+.text-teicBlack
+  color $teicBlackColor
+.text-teicgrey
+  color $teicGreyColor
+.bg-teic
+  background $teicBlackColor
+.border-teic
+  border-color $teicColor
+.bg-teicgrey
+  background $teicGreyColor
+
+
+.text-arial-bold
+  font-family: Arial
+  font-weight: bold
+
+.container
+  width 80%;
+  padding-right 0.75rem
+  padding-left 0.75rem
+  margin-right auto
+  margin-left auto
+
+.my-card
+  width 400px
+  height 400px
+  padding-right 0.75rem
+  padding-left 0.75rem
+  margin-right auto
+  margin-left auto
+
+.w-100
+  width: 100%
+.w-95
+  width: 95%
+.w-90
+  width: 90%
+.w-85
+  width: 85%
+.w-80
+  width: 80%
+.w-75
+  width: 75%
+.w-70
+  width: 70%
+.w-65
+  width: 65%
+.w-60
+  width: 60%
+.w-50
+  width: 50%
+.w-40
+  width: 40%
+
+.100vw
+  width:100vh
+.90vw
+  width:90vh
+.80vw
+  width:80vh
+.70vw
+  width:70vh
+
+
+
+@media (min-width: 576px)
+  .container
+    max-width: 540px
+
+@media (max-width: 767px)
+  .nav-desktop
+    display none
+
+@media (min-width: 768px)
+  .container
+    max-width: 720px
+  .nav-mobile
+    display none !important
+
+@media (min-width: 992px)
+  .container
+    max-width: 960px
+
+@media (min-width: 1200px)
+  .container
+    max-width: 1140px
+
+@media (min-width: 1400px)
+  .container
+    max-width: 1320px
