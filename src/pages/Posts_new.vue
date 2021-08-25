@@ -1,7 +1,7 @@
 <template lang="pug">
   q-page#postNew.w-80.q-mx-auto.q-px-auto
-    .w-80.col.self-center
-      q-form.row.q-gutter-md(@submit.prevent="submit" @reset='reset')
+    .w-100.col.self-center
+      q-form.row.q-gutter-md.w-100(@submit.prevent="submit" @reset='reset')
           q-input.col-12.bg-white(filled type='text' v-model="form.title" label='標題' label-for="input-title" hint='請輸入問題' lazy-rules
           :error="!rules.title" error-message='標題不能為空' autofocus)
           q-editor.col-12(filled type="textarea" v-model='form.contents' label='內容' label-for="input-contents" hint='請輸入說明' lazy-rules

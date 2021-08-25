@@ -15,7 +15,6 @@ const routes = [
       { path: 'test_tableEdit', component: () => import('pages/Test_tableEdit.vue'), meta: { title: 'Forum | Test_tableEdit', login: false } },
       { path: 'test_todo', component: () => import('pages/Test_todo.vue'), meta: { title: 'Forum | Test_todo', login: false } },
       { path: 'test_tree', component: () => import('pages/Test_tree.vue'), meta: { title: 'Forum | Test_tree', login: false } },
-      { path: 'test_trello', component: () => import('pages/Test_trello.vue'), meta: { title: 'Forum | Test_trello', login: false } },
       { path: 'test_form_dialog', component: () => import('pages/Test_form_dialog.vue'), meta: { title: 'Forum | Test_form_dialog', login: false } },
       { path: 'test_timeline', component: () => import('pages/Test_timeline.vue'), meta: { title: 'Forum | Test_timeline', login: false } },
       { path: 'test_tree_easy', component: () => import('pages/Test_tree_easy.vue'), meta: { title: 'Forum | Test_tree_easy', login: false } },
