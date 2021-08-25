@@ -9,7 +9,7 @@
           :toolbar="[[{label:'標題',icon: $q.iconSet.editor.formatting,fixedLabel: true,options: ['p','h1','h2','h3','h4','h5','h6','code']}],[{label:'段落',icon: $q.iconSet.editor.align,fixedLabel: true,options: ['quote', 'unordered', 'ordered', 'outdent', 'indent', 'left', 'center', 'right', 'justify']}],[{label:'字體',icon: $q.iconSet.editor.font,fixedLabel: true,options: ['bold', 'italic', 'strike', 'underline', 'subscript', 'superscript']}],[{label:'字型',fixedLabel: true,options: ['default_font','arial','arial_black','comic_sans','courier_new','impact','lucida_grande','times_new_roman','verdana']},'removeFormat'],[{label:'字型大小',icon: $q.iconSet.editor.fontSize,fixedLabel: true,fixedIcon: true,list: 'no-icons',options: ['size-1','size-2','size-3','size-4','size-5','size-6','size-7']}],['token', 'hr', 'link', 'custom_btn'],['undo', 'redo']]"
           :fonts="{arial: 'Arial',arial_black: 'Arial Black',comic_sans: 'Comic Sans MS',courier_new: 'Courier New',impact: 'Impact',lucida_grande: 'Lucida Grande',times_new_roman: 'Times New Roman',verdana: 'Verdana'}"
             )
-          img-inputer.col-12(v-model="form.image" theme="dark" size="large" placeholder="點擊或拖曳選擇圖片" bottom-text="點擊或拖曳以修改" style="height:300px")
+          //- img-inputer.col-12(v-model="form.image" theme="dark" size="large" placeholder="點擊或拖曳選擇圖片" bottom-text="點擊或拖曳以修改" style="height:300px")
           br
           div.col-12.row.justify-end
             q-btn.q-ml-sm.col-2(label='送出' type='submit' color='primary')

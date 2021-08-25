@@ -4,8 +4,9 @@
     q-page-container
       .container
         q-fab(vertical-actions-align='left' color='blue-8' hide-icon direction='right' label="Menu"  class="q-pt-lg" )
+          q-fab-action(color='secondary'  v-if="!user.islogin" to="/map" icon='' label='網站地圖')
           q-fab-action(color='deep-orange-12'  v-if="!user.islogin" to="/register" icon='login' label='註冊')
-          q-fab-action(color='secondary'       v-if="!user.islogin" to="/login" icon='login' label='登入')
+          q-fab-action(color='red-3'       v-if="!user.islogin" to="/login" icon='login' label='登入')
           q-fab-action(color='purple-5'   v-if="!user.islogin" to="/" label='回首頁')
 
           //- q-fab-action(color='secondary'       v-if="!user.islogin" to="/test_tree" label='Test_tree')

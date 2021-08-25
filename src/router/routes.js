@@ -5,6 +5,7 @@ const routes = [
     component: () => import('layouts/MainLayout.vue'),
     children: [
       { path: '', component: () => import('pages/Index.vue'), meta: { title: 'TEIC Forum', login: false } },
+      { path: 'map', component: () => import('pages/Map.vue'), meta: { title: '網站地圖', login: false } },
       { path: 'register', component: () => import('pages/Register.vue'), meta: { title: '註冊', login: false } },
       { path: 'login', component: () => import('pages/Login.vue'), meta: { title: '登入', login: false } },
       { path: 'posts_new', component: () => import('pages/Posts_new.vue'), meta: { title: '新增貼文', login: true } },
