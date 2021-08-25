@@ -110,6 +110,9 @@ export default {
                   label: '追蹤'
                 }
               ]
+            },
+            {
+              label: '困難'
             }
           ]
         }
