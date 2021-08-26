@@ -26,7 +26,7 @@
                     li 資料庫：mongoose
                     li 驗證、通知： md5 / validator / Sweetalert2
                     li server：axios / cors / body-parser / multer / multer-ftp / dotenv / jsonwebtoken
-                    li 其他： nodemon /eslint / pug pug-plain-loader
+                    li 其他： nodemon /eslint / pug / pug-plain-loader
                 li 前端套件：
                   ul
                     li validator / vuelidate / Vuex / mixin / PageTransition / Gtag / persistedstate
