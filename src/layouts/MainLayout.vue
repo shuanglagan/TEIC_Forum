@@ -21,7 +21,7 @@
           q-fab-action(color='light-blue-12'       v-if="user.islogin" to="/" label='回首頁')
           q-fab-action(color='cyan-8'       v-if="user.islogin" to="/posts_new" label='新貼文')
           q-fab-action(color='green-8'       v-if="user.islogin" to="/posts_my" label='文章列表')
-          q-fab-action(color='lime-8'       v-if="user.islogin" to="/posts_follows" label='追蹤列表')
+          //- q-fab-action(color='lime-8'       v-if="user.islogin" to="/posts_follows" label='追蹤列表')
           //- q-fab-action(color='orange-8'          v-if="user.islogin" to="/user"  label='個人空間' )
           q-fab-action(color='deep-orange-3'          v-if="user.islogin"  @click="logout" label='登出')
 
